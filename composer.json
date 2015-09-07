@@ -1,0 +1,19 @@
+{
+  "name": "alterfw/options-page",
+  "description": "Create options page for your WordPress themes or plugins",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergio Vilar",
+      "email": "sergiovilar.r@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "alterfw/wordpress-for-developers": "^0.1.2",
+    "alterfw/common": "^0.1.2"
+  },
+  "autoload": {
+    "files": ["src/OptionPage.php"]
+  }
+}
