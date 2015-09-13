@@ -15,9 +15,9 @@
   },
   "autoload": {
     "files": [
-      "bootstrap.php",
       "src/OptionPage.php",
-      "src/Loader.php"
+      "src/Loader.php",
+      "bootstrap.php"
     ]
   }
 }
