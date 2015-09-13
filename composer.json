@@ -14,6 +14,10 @@
     "alterfw/common": "^0.1.2"
   },
   "autoload": {
-    "files": ["src/OptionPage.php"]
+    "files": [
+      "bootstrap.php",
+      "src/OptionPage.php",
+      "src/Loader.php"
+    ]
   }
 }
