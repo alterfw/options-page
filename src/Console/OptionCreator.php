@@ -1,8 +1,8 @@
 <?php
 
-namespace Hero\Option\Console;
+namespace Alter\Option\Console;
 
-use Hero\Common\Console\TemplateCreator;
+use Alter\Common\Console\TemplateCreator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
