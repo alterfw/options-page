@@ -19,7 +19,7 @@
       "Alter\\Option\\Loader\\": "src/Loader/"
     },
     "files": [
-      "src/OptionPage.php",
+      "src/Api/OptionPage.php",
       "bootstrap.php"
     ]
   }
