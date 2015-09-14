@@ -28,7 +28,7 @@ class OptionCreator extends TemplateCreator {
     $name = ucfirst($input->getArgument('name'));
 
     $this->createDirectory('/option');
-    $this->render('Option', '/option/'.strtolower($name).'.php', ['name'=>$name]);
+    $this->render(__DIR__.'/templates/Option', '/option/'.strtolower($name).'.php', ['name'=>$name]);
 
     $output->writeln('<info>Created</info> '.APPLICATION_PATH.'/option/'.strtolower($name).'.php');
 
