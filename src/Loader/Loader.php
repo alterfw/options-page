@@ -1,8 +1,10 @@
 <?php
 
+namespace Alter\Option\Loader;
+
 use Alter\Common\Loader;
 
-class OptionLoader extends Loader {
+class Option extends Loader {
 
   function __construct() {
 

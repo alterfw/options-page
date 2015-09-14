@@ -14,9 +14,12 @@
     "alterfw/common": "^0.1.2"
   },
   "autoload": {
+    "psr-4": {
+      "Alter\\Option\\Console\\": "src/Console/",
+      "Alter\\Option\\Loader\\": "src/Loader/"
+    },
     "files": [
       "src/OptionPage.php",
-      "src/Loader.php",
       "bootstrap.php"
     ]
   }

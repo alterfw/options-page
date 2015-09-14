@@ -1,3 +1,4 @@
 <?php
 
-new OptionLoader();
+use Alter\Option\Loader\Option;
+new Option();

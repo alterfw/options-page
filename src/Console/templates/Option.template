@@ -1,0 +1,12 @@
+<?php
+
+class {{name}} extends OptionPage {
+
+  public $title = '{{name}}';
+  public $capability = 'switch_themes';
+
+  public $fields = [
+
+  ];
+
+}
